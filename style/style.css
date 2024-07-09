@@ -103,6 +103,8 @@
     padding: 4px 70px;
 }
 
+/* current target item style  */
+
 .current-target {
     display: flex;
     padding: 4px 70px;
@@ -150,4 +152,22 @@
 
 .target-item-3 p {
     margin: 8px 0px;
+}
+
+/* next target items style */
+.target-items{
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+   padding: 30px;
+   border-radius: 10px;
+}
+.next-target-container{
+    margin: 30px 4px;
+    padding: 4px 70px;
+
+}
+.next-terget-image img{
+    width: 100px;
 }
