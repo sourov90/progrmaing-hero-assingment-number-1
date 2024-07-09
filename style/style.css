@@ -155,19 +155,63 @@
 }
 
 /* next target items style */
-.target-items{
+.target-items {
     display: flex;
     gap: 30px;
     border: 1px solid black;
     margin-bottom: 20px;
-   padding: 30px;
-   border-radius: 10px;
+    padding: 30px;
+    border-radius: 10px;
 }
-.next-target-container{
+
+.next-target-container {
     margin: 30px 4px;
     padding: 4px 70px;
 
 }
-.next-terget-image img{
+
+.next-terget-image img {
     width: 100px;
+}
+
+/* footer style  */
+.footer-input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.contains{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+     
+}
+.footer-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    padding: 90px 0px;
+   
+}
+
+.footer-container button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.footer-container p{
+    margin: 25px 0px;
+     
+}
+.copy-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background-color: rgb(197, 194, 194);
 }
